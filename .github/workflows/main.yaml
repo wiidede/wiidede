@@ -2,7 +2,7 @@
 name: Metrics
 on:
   # Schedule updates
-  schedule: [{cron: "0 * * * *"}]
+  schedule: [{cron: "0 0 * * *"}]
   # Lines below let you run workflow manually and on each commit
   workflow_dispatch:
   push: {branches: ["main"]}
@@ -24,14 +24,14 @@ jobs:
           base: header, activity, community, repositories, metadata
           config_timezone: Etc/GMT-8
 
-      - name: Metrics 2
+      - name: MetricsRight
         uses: lowlighter/metrics@latest
         with:
           # Your GitHub token
           token: ${{ secrets.METRICS_TOKEN }}
 
           # Options
-          filename: metrics-left.svg
+          filename: metrics-right.svg
           user: wiidede
           base: ""
           config_timezone: Etc/GMT-8
