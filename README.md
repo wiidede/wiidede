@@ -1,5 +1,5 @@
-<div style="display: flex; align-items: flex-start">
-  <img src="metrics-left.svg" width="48%" />
+<div>
+  <img src="metrics-left.svg" width="48%" style="vertical-align: top;" />
   <img src="metrics-right.svg" width="48%" />
 </div>
 
