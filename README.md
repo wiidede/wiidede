@@ -1,7 +1,4 @@
-<div>
-  <img src="metrics-left.svg" width="48%" align="top" />
-  <img src="metrics-right.svg" width="48%" />
-</div>
+![metrics](metrics-left.svg)
 
 <!--
 - 👋 Hi, I’m @wiidede
